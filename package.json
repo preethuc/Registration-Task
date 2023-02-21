@@ -1,0 +1,27 @@
+{
+  "name": "register-form",
+  "version": "1.0.0",
+  "description": "\"register form task\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src -d lib && node lib/server.js",
+    "serve": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "preetha",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "6.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
